@@ -1,0 +1,127 @@
+* {
+    color: #F4F4F4;
+    font-family: "Segoe UI";
+    font-size: 10pt;
+}
+QWidget {
+    background: #0E0E0E;
+}
+QMainWindow, QDialog {
+    background: #0E0E0E;
+}
+QLabel#muted, QLabel.muted {
+    color: #929292;
+}
+QLabel#pageTitle {
+    font-size: 25pt;
+    font-weight: 700;
+}
+QLabel#sectionTitle {
+    font-size: 12pt;
+    font-weight: 650;
+}
+QFrame#taskCard, QFrame#statCard {
+    background: #181818;
+    border: 1px solid #292929;
+    border-radius: 16px;
+}
+QFrame#taskCard:hover {
+    border-color: #4C351F;
+    background: #1C1B19;
+}
+QFrame#statCard {
+    border-radius: 13px;
+}
+QLineEdit, QTextEdit, QDateEdit, QComboBox {
+    background: #181818;
+    border: 1px solid #303030;
+    border-radius: 9px;
+    padding: 10px 12px;
+    selection-background-color: #FF7A00;
+}
+QLineEdit:focus, QTextEdit:focus, QDateEdit:focus, QComboBox:focus {
+    border-color: #FF7A00;
+}
+QComboBox::drop-down {
+    border: 0;
+    width: 25px;
+}
+QComboBox QAbstractItemView {
+    background: #202020;
+    border: 1px solid #383838;
+    selection-background-color: #3A2819;
+}
+QPushButton, QToolButton {
+    background: #222222;
+    border: 1px solid #333333;
+    border-radius: 9px;
+    padding: 9px 14px;
+}
+QPushButton:hover, QToolButton:hover {
+    background: #2B2B2B;
+    border-color: #555555;
+}
+QPushButton:pressed, QToolButton:pressed {
+    background: #353535;
+}
+QPushButton#primaryButton {
+    color: #111111;
+    background: #FF7A00;
+    border: 0;
+    font-weight: 700;
+    padding: 11px 18px;
+}
+QPushButton#primaryButton:hover {
+    background: #FF9130;
+}
+QPushButton#textButton, QToolButton#filterButton {
+    background: transparent;
+    border-color: transparent;
+}
+QToolButton#filterButton:checked {
+    color: #FF7A00;
+    background: #2A1D13;
+    border-color: #4A2E18;
+}
+QPushButton#dangerButton {
+    color: #FF7777;
+    background: #281818;
+    border-color: #4B2626;
+}
+QCheckBox {
+    spacing: 8px;
+}
+QCheckBox::indicator {
+    width: 19px;
+    height: 19px;
+    border-radius: 6px;
+    border: 1px solid #636363;
+    background: #202020;
+}
+QCheckBox::indicator:hover {
+    border-color: #FF7A00;
+}
+QCheckBox::indicator:checked {
+    background: #FF7A00;
+    border-color: #FF7A00;
+}
+QScrollArea {
+    border: 0;
+    background: transparent;
+}
+QScrollBar:vertical {
+    width: 8px;
+    background: transparent;
+    margin: 2px;
+}
+QScrollBar::handle:vertical {
+    background: #393939;
+    border-radius: 4px;
+    min-height: 28px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0;
+}
+QCalendarWidget QWidget {
+    alternate-background-color: #181818;
+}
